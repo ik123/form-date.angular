@@ -1,0 +1,27 @@
+    <mat-form-field class="example-full-width">
+  <input matInput [matDatepicker]="picker" placeholder="Choose a date">
+  <mat-datepicker-toggle matSuffix [for]="picker">
+        <i matDatepickerToggleIcon class="far fa-calendar-alt"></i>
+
+  </mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+<br>
+<mat-radio-group aria-label="Select an option">
+  <mat-radio-button value="1">Option 1</mat-radio-button><br>
+  <mat-radio-button value="2">Option 2</mat-radio-button><br>
+</mat-radio-group>
+
+
+    <mat-form-field class="example-full-width">
+  <input matInput [matDatepicker]="picker1" placeholder="Choose a date">
+  <mat-datepicker-toggle matPrefix [for]="picker">
+        <i matDatepickerToggleIcon class="far fa-calendar-alt"></i>
+<br>
+  </mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field><br>
+<mat-radio-group aria-label="Select an option">
+  <mat-radio-button value="1">Option 1</mat-radio-button><br>
+  <mat-radio-button value="2">Option 2</mat-radio-button><br>
+</mat-radio-group>
